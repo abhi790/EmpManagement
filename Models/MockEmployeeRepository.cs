@@ -13,7 +13,7 @@
                 new Employee() { Id=3, Name="Sonal",Email="sonal@ex.com",Department="Doctor"},
                 new Employee() { Id=4, Name="Khushi",Email="khushi@ex.com",Department="Scientist"}};
         }
-        public Employee AddEmployee(Employee employee)
+        public void AddEmployee(Employee employee)
         {
 
             try
@@ -26,10 +26,9 @@
                 employee.Id = 1;
             }
             _employeeList.Add(employee);
-            return employee;
         }
 
-        public Employee DeleteEmployee(int id)
+        public void DeleteEmployee(int id)
         {
             try
             {
@@ -42,17 +41,15 @@
                 Console.WriteLine("Error Occured");
             }
             
-            return new Employee();
         }
 
-        public Employee EditEmployee(Employee employee)
+        public void EditEmployee(Employee employee)
         {
             Employee updtEmp = _employeeList.FirstOrDefault(emp => emp.Id == employee.Id);
             updtEmp.Id = employee.Id;
             updtEmp.Name = employee.Name;
             updtEmp.Email = employee.Email;
             updtEmp.Department = employee.Department;
-            return updtEmp;
         }
 
         public IEnumerable<Employee> GetAllEmployee()

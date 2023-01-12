@@ -77,7 +77,7 @@ public class HomeController : Controller
     [HttpGet]
     public IActionResult Delete(int id){
         // return View("Index");
-        Employee employee = _employeeRepository.DeleteEmployee(id);
+        _employeeRepository.DeleteEmployee(id);
         return RedirectToAction("index");
     }
     public IActionResult Privacy()
