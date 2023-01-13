@@ -77,20 +77,20 @@ Finally run and open metion port number to see app working. Enjoy.
 ```bash
   dotnet run
 ```
-# Screenshot Of App
+# Screenshot Of Web Application
 
-## List Employee
+## List All Employees
 
-![List Employee](https://user-images.githubusercontent.com/64580344/212389674-46e0634b-8ebd-42a3-b548-6a2c28f00f3b.png)
+![List Employees](https://user-images.githubusercontent.com/64580344/212389674-46e0634b-8ebd-42a3-b548-6a2c28f00f3b.png)
 
 
 
-## Create Employee
+## Create An Employee
 
 ![Create Employee](https://user-images.githubusercontent.com/64580344/212390064-e3aabf48-6e11-4921-9f1c-385fb097949a.png)
 
 
-## Edit Employee
+## Edit An Employee
 
 ![Edit](https://user-images.githubusercontent.com/64580344/212390865-8a7132e0-36fa-4bf3-b2b9-d5c4df5388a1.jpeg)
 
