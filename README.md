@@ -2,7 +2,7 @@
 # EmployeeManagement CRUD Web App
 
 This is fully functional CRUD web application.This web application is built on Dotnet Core 6 MVC using Entity Framework Core to make connection with 
-SQL Server for its CRUD functionality.
+MySQL Server for its CRUD functionality.
 
 ## Software Required
 - 1)Visual Studio Code
@@ -15,7 +15,7 @@ SQL Server for its CRUD functionality.
 
 ## Tech Stack
 
-**Database:** SQL Server and Entity Framwork Core
+**Database:** MySQL Server and Entity Framwork Core
 
 **BackEnd and FrontEnd:** Dotnet Core MVC(Model,View and Controller)
 
